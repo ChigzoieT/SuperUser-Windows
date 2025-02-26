@@ -13,32 +13,32 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 
 # Add the source and resource files
 set(SOURCES
-    main.cpp
-    allocator.cpp
-    superuser.cpp
-    connector.cpp
-    pressortext.cpp
-    pressorfile.cpp
-    depressorfile.cpp
-    downloaddata.cpp
-    uploaddata.cpp
-    cpu_info.cpp
-    winsys.cpp
-    button_subclass.cpp
-    cpu_info_plugger.cpp
-    components.cpp
-    deletedata.cpp
-    font_utils.cpp
-    signup.cpp
-    events.cpp
-    saveuser.cpp
-    prevnext.cpp
-    fireonboot.cpp
-    lessbusycore.cpp
-    video_converter.cpp
-    retrievedata.cpp
-    audio_converter.cpp
-    image_converter.cpp
+    cpp/main.cpp
+    cpp/allocator.cpp
+    cpp/superuser.cpp
+    cpp/connector.cpp
+    cpp/pressortext.cpp
+    cpp/pressorfile.cpp
+    cpp/depressorfile.cpp
+    cpp/downloaddata.cpp
+    cpp/uploaddata.cpp
+    cpp/cpu_info.cpp
+    cpp/winsys.cpp
+    cpp/button_subclass.cpp
+    cpp/cpu_info_plugger.cpp
+    cpp/components.cpp
+    cpp/deletedata.cpp
+    cpp/font_utils.cpp
+    cpp/signup.cpp
+    cpp/events.cpp
+    cpp/saveuser.cpp
+    cpp/prevnext.cpp
+    cpp/fireonboot.cpp
+    cpp/lessbusycore.cpp
+    cpp/video_converter.cpp
+    cpp/retrievedata.cpp
+    cpp/audio_converter.cpp
+    cpp/image_converter.cpp
     resource.rc
 )
 
